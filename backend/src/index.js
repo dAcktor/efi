@@ -5,7 +5,7 @@ const router = require('koa-router')();
 const fetch = require('node-fetch');
 const cors = require('kcors');
 
-const appId = process.env.APPID || '';
+const appId = process.env.APPID || 'dc1e2842236a92f2ba46a857e863583b';
 const mapURI = process.env.MAP_ENDPOINT || "http://api.openweathermap.org/data/2.5";
 const targetCity = process.env.TARGET_CITY || "Helsinki,fi";
 
